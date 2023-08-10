@@ -1,6 +1,6 @@
--- import: web3innovatorsnexus.xyz/lib
--- import: web3innovatorsnexus.xyz/images
--- import: web3innovatorsnexus.xyz/web-components
+-- import: trizwit.github.io/fastnfolio/lib
+-- import: trizwit.github.io/fastnfolio/images
+-- import: trizwit.github.io/fastnfolio/web-components
 
 -- lib.page:
 cta-text-1: Home
