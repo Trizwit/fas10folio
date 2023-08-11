@@ -8,7 +8,7 @@ cta-text-2: About
 cta-text-3: Partners
 cta-text-4: Speakers
 cta-button-1: Register
-logo: $assets.files.images.w3inexus-white.png
+logo: $assets.files.images.fastnfolio-logo.png
 
 -- lib.hero: Web3 Innovators Nexus 2023
 text-1: July 29 2023
@@ -19,7 +19,7 @@ cta-button-1: Register Now
 Fostering the growth of startups in the transformative world of Web3.
 
 -- lib.about: About Web3 Innovator Nexus
-pic: $assets.files.images.web3.avif
+pic: $assets.files.images.fastnfolio-logo.png
 
 Welcome to the Web3 Innovators Nexus, an event dedicated to fostering the growth of 
 startups in the transformative world of Web3.
@@ -38,29 +38,29 @@ inspiration from their experiences and successes.
 -- lib.sponsor-section: Organized by
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.web32.png
+logo: $assets.files.images.fastnfolio-logo.png
  
 -- end: lib.sponsor-section
 
 -- lib.sponsor-section: In Assoication with
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.google.svg
+logo: $assets.files.images.fastnfolio-logo.png
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.wallethunter.png
+logo: $assets.files.images.fastnfolio-logo.png
 
 -- lib.sponsor-card: Kerala Startup Mission 
-logo: $assets.files.images.ksum.png
+logo: $assets.files.images.fastnfolio-logo.png
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.nefto.png
+logo: $assets.files.images.fastnfolio-logo.png
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.muzikartboard.svg
+logo: $assets.files.images.fastnfolio-logo.png
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.Nordek.png
+logo: $assets.files.images.fastnfolio-logo.png
  
 -- end: lib.sponsor-section
 
@@ -78,7 +78,7 @@ logo: $assets.files.images.Trizwit.png
 -- lib.sponsor-section: Academy Partner
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.tribe-2.png
+logo: $assets.files.images.Trizwit.png
  
 -- end: lib.sponsor-section
 
@@ -87,49 +87,34 @@ logo: $assets.files.images.tribe-2.png
 -- lib.carousel: Speakers
 
 -- lib.blog-1: Jozef Jagan
-pic: $assets.files.images.Jozef.png
+pic: $assets.files.images.fastnfolio.jpg
 title: Wallet Hunter
 number: 1
 
 -- lib.blog-1: Mirzad Makhdoom
-pic: $assets.files.images.Mirzad.png
+pic: $assets.files.images.fastnfolio.jpg
 title: Tribe Academy
 number: 2
 
 -- lib.blog-1: Vijay Pravin
-pic: $assets.files.images.Vijay-Parvin.jpg
+pic: $assets.files.images.fastnfolio.jpg
 title: BitsCrunch 
 number: 3
 
 -- lib.blog-1: Deep
-pic: $assets.files.images.Deep.jpg
+pic: $assets.files.images.fastnfolio.jpg
 title: Google Cloud 
 number: 4
 
 -- lib.blog-1: Vivek Prasannan
-pic: $assets.files.images.vivek.jpeg
+pic: $assets.files.images.fastnfolio.jpg
 title: Polkadex 
 number: 5
 
 -- lib.blog-1: Aditi Gupta
-pic: $assets.files.images.Aditi.jpg
+pic: $assets.files.images.fastnfolio.jpg
 title: Nordek 
 number: 6
-
--- lib.blog-1: Krutika Lodaya
-pic: $assets.files.images.Krutika.jpg
-title: Wallet Hunter 
-number: 7
-
--- lib.blog-1: Sangeet Muralidhar
-pic: $assets.files.images.sangeet.png
-title: KONMA DAO 
-number: 8
-
--- lib.blog-1: Sneha Vijayan
-pic: $assets.files.images.sneha.jpeg
-title: Resolutio & DLA
-number: 9
 
 -- end: lib.carousel
 
