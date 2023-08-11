@@ -1,6 +1,6 @@
--- import: fastnfolio/lib
--- import: fastnfolio/images
--- import: fastnfolio/web-components
+-- import: fastnfolio.trizwit.com/lib
+-- import: fastnfolio.trizwit.com/images
+-- import: fastnfolio.trizwit.com/web-components
 
 -- lib.page:
 cta-text-1: Home

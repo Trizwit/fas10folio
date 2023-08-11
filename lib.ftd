@@ -1,6 +1,6 @@
--- import: fastnfolio/common
--- import: fastnfolio/common/button
--- import: fastnfolio/web-components
+-- import: fastnfolio.trizwit.com/common
+-- import: fastnfolio.trizwit.com/common/button
+-- import: fastnfolio.trizwit.com/web-components
 -- import: sarvom.github.io/holy-angel-typography 
 
 
