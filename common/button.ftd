@@ -1,0 +1,157 @@
+
+
+-- component button-1:
+caption title: 
+string link:
+boolean $is-active-1: false
+
+-- ftd.row:
+padding-horizontal.px: 12
+padding-vertical.px: 16
+border-radius.px: 32
+background.solid: Yellow
+link: $button-1.link
+$on-mouse-enter$: $ftd.set-bool($a = $button-1.is-active-1, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $button-1.is-active-1, v = false)
+border-bottom-width.px if { button-1.is-active-1}: 2
+
+-- ftd.text: $button-1.title
+
+-- end: ftd.row
+
+-- end: button-1
+
+
+
+
+
+
+
+
+
+-- component button-2:
+caption title: 
+string link:
+boolean $is-active: false
+
+-- ftd.row:
+width.fixed.px: 100
+align-content: center
+padding-horizontal.px: 12
+padding-vertical.px: 16
+border-radius.px: 10
+background.solid: #f20487
+link: $button-2.link
+border-width.px: 2
+
+-- ftd.text: $button-2.title
+role: $inherited.types.label-large
+color: White
+
+-- end: ftd.row
+
+-- end: button-2
+
+
+
+
+
+
+
+
+
+
+-- component button-3:
+caption title: 
+string link:
+boolean $is-active: false
+
+-- ftd.row:
+margin-vertical.px: 24
+padding-horizontal.px: 12
+padding-vertical.px: 16
+border-radius.px: 10
+background.solid if { button-3.is-active} : White
+background.solid: #f20487
+$on-mouse-enter$: $ftd.set-bool($a = $button-3.is-active, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $button-3.is-active, v = false)
+link: $button-3.link
+
+-- ftd.text: $button-3.title
+role: $inherited.types.heading-small
+style: bold
+color: White
+color if { button-3.is-active}: #f20487
+
+-- end: ftd.row
+
+-- end: button-3
+
+
+
+
+
+
+
+
+-- component button-4:
+caption title: 
+string link:
+boolean $is-active: false
+
+-- ftd.row:
+margin-vertical.px: 24
+padding-horizontal.px: 24
+padding-vertical.px: 16
+border-radius.px: 10
+background.solid if { button-4.is-active} : White
+background.solid: #f20487
+$on-mouse-enter$: $ftd.set-bool($a = $button-4.is-active, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $button-4.is-active, v = false)
+link: $button-4.link
+
+-- ftd.text: $button-4.title
+role: $inherited.types.heading-small
+style: bold
+color: White
+color if { button-4.is-active}: #181939
+
+-- end: ftd.row
+
+-- end: button-4
+
+
+
+
+
+
+
+
+
+
+-- component button-5:
+caption title: 
+string link:
+boolean $is-active: false
+
+-- ftd.row:
+align-content: center
+width.fixed.px: 120
+padding-horizontal.px: 12
+padding-vertical.px: 16
+border-radius.px: 10
+background.solid if { button-5.is-active} : White
+background.solid: #f20487
+$on-mouse-enter$: $ftd.set-bool($a = $button-5.is-active, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $button-5.is-active, v = false)
+link: $button-5.link
+
+-- ftd.text: $button-5.title
+role: $inherited.types.label-large
+style: bold
+color: White
+color if { button-5.is-active}: #181939
+
+-- end: ftd.row
+
+-- end: button-5
