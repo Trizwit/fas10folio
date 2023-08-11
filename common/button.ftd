@@ -40,7 +40,7 @@ align-content: center
 padding-horizontal.px: 12
 padding-vertical.px: 16
 border-radius.px: 10
-background.solid: #f20487
+background.solid: #400424 
 link: $button-2.link
 border-width.px: 2
 
@@ -141,7 +141,7 @@ padding-horizontal.px: 12
 padding-vertical.px: 16
 border-radius.px: 10
 background.solid if { button-5.is-active} : White
-background.solid: #f20487
+background.solid: #400424 
 $on-mouse-enter$: $ftd.set-bool($a = $button-5.is-active, v = true)
 $on-mouse-leave$: $ftd.set-bool($a = $button-5.is-active, v = false)
 link: $button-5.link

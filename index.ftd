@@ -5,62 +5,57 @@
 -- lib.page:
 cta-text-1: Home
 cta-text-2: About
-cta-text-3: Partners
+cta-text-3: Participate
 cta-text-4: Speakers
-cta-button-1: Register
-logo: $assets.files.images.w3inexus-white.png
+cta-button-1: Participate
+cta-button-1-url: https://trizwit.com/
+logo: $assets.files.images.Trizwit.png
 
--- lib.hero: Web3 Innovators Nexus 2023
-text-1: July 29 2023
+-- lib.hero: FASTNfolio
+text-1: August 15 to September 15
 text-2: 3pm - 7pm
 text-3: Kerala Startup Mission, Kochi
 cta-button-1: Register Now
+cta-button-1-url: https://trizwit.com/
 
-Fostering the growth of startups in the transformative world of Web3.
 
--- lib.about: About Web3 Innovator Nexus
+Craft your digital identity
+
+-- lib.about: About FASTNfolio
 pic: $assets.files.images.web3.avif
 
-Welcome to the Web3 Innovators Nexus, an event dedicated to fostering the growth of 
-startups in the transformative world of Web3.
-
-​At the Web3 Innovators Nexus, visionary entrepreneurs, technologists, investors, and 
-industry leaders come together to share insights and explore the limitless possibilities 
-of Web3 technologies.
-
-​Attend engaging keynote speeches, panel discussions, and fireside chats delivered by 
-influential leaders at the forefront of Web3 innovation. Gain invaluable insights and 
-inspiration from their experiences and successes.
-
-​Together, let's drive the evolution of Web3 technologies and unlock their true potential.
+FASTNfolio, an innovative campaign designed to inspire and empower you to create exceptional 
+portfolio websites using the cutting-edge FASTN language. This campaign aims to inspire 
+creativity, foster learning, and showcase the immense potential of FASTN in shaping the 
+future of web development. 
 
 
 -- lib.sponsor-section: Organized by
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.web32.png
+logo: $assets.files.images.Trizwit.png
  
 -- end: lib.sponsor-section
 
 -- lib.sponsor-section: In Assoication with
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.google.svg
+logo: $assets.files.images.Trizwit.png
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.wallethunter.png
+logo: $assets.files.images.Trizwit.png
 
 -- lib.sponsor-card: Kerala Startup Mission 
-logo: $assets.files.images.ksum.png
+logo: $assets.files.images.Trizwit.png
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.nefto.png
+logo: $assets.files.images.Trizwit.png
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.muzikartboard.svg
+logo: $assets.files.images.Trizwit.png
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.Nordek.png
+logo: $assets.files.images.Trizwit.png
  
 -- end: lib.sponsor-section
 
@@ -78,7 +73,7 @@ logo: $assets.files.images.Trizwit.png
 -- lib.sponsor-section: Academy Partner
 
 -- lib.sponsor-card: 
-logo: $assets.files.images.tribe-2.png
+logo: $assets.files.images.Trizwit.png
  
 -- end: lib.sponsor-section
 
@@ -87,17 +82,17 @@ logo: $assets.files.images.tribe-2.png
 -- lib.carousel: Speakers
 
 -- lib.blog-1: Jozef Jagan
-pic: $assets.files.images.Jozef.png
+pic: $assets.files.images.Trizwit.png
 title: Wallet Hunter
 number: 1
 
 -- lib.blog-1: Mirzad Makhdoom
-pic: $assets.files.images.Mirzad.png
+pic: $assets.files.images.Trizwit.png
 title: Tribe Academy
 number: 2
 
 -- lib.blog-1: Vijay Pravin
-pic: $assets.files.images.Vijay-Parvin.jpg
+pic: $assets.files.images.Trizwit.png
 title: BitsCrunch 
 number: 3
 
@@ -117,13 +112,13 @@ title: Nordek
 number: 6
 
 -- lib.blog-1: Krutika Lodaya
-pic: $assets.files.images.Krutika.jpg
+pic: $assets.files.images.Trizwit.png
 title: Wallet Hunter 
 number: 7
 
 -- lib.blog-1: Sangeet Muralidhar
-pic: $assets.files.images.sangeet.png
-title: KONMA DAO 
+pic: $assets.files.images.Trizwit.png
+title: KONMA DAO 
 number: 8
 
 -- lib.blog-1: Sneha Vijayan
