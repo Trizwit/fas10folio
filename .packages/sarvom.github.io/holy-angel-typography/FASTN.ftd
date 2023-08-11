@@ -1,0 +1,22 @@
+-- import: fastn
+
+-- fastn.package: sarvom.github.io/holy-angel-typography
+
+-- fastn.dependency: fifthtry.github.io/package-doc
+
+
+-- fastn.dependency: sarvom.github.io/poppins
+-- fastn.dependency: fastn-community.github.io/lato-font
+
+
+
+-- fastn.sitemap:
+
+
+# Home: index.html
+
+- fastn typography: fastn-typography/
+
+
+# GitHub
+  url: https://github.com/sarvom/holy-angel-typography
