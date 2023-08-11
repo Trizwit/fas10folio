@@ -1,7 +1,7 @@
 -- import: fastn
 
--- fastn.package: fastnfolio.trizwit.com
-favicon: /-/fastnfolio.trizwit.com/images/fastnfolio.jpg
+-- fastn.package: trizwit.github.io/fastnfolio
+favicon: /-/trizwit.github.io/fastnfolio/images/fastnfolio.jpg
 
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
@@ -9,7 +9,7 @@ favicon: /-/fastnfolio.trizwit.com/images/fastnfolio.jpg
 -- fastn.dependency: sarvom.github.io/holy-angel-typography
 
 
--- fastn.auto-import: fastnfolio.trizwit.com/FASTN/ds
--- fastn.auto-import: fastnfolio.trizwit.com/assets
+-- fastn.auto-import: trizwit.github.io/fastnfolio/FASTN/ds
+-- fastn.auto-import: trizwit.github.io/fastnfolio/assets
 -- fastn.auto-import: doc-site
 
