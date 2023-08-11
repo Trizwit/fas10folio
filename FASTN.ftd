@@ -1,7 +1,7 @@
 -- import: fastn
 
 -- fastn.package: web3innovatorsnexus.xyz
-favicon: /-/web3innovatorsnexus.xyz/images/w3inexus-white.png
+favicon: /-/web3innovatorsnexus.xyz/images/fastnfolio.jpg
 
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer

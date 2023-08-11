@@ -5,128 +5,108 @@
 -- lib.page:
 cta-text-1: Home
 cta-text-2: About
-cta-text-3: Partners
+cta-text-3: Campus Partners
 cta-text-4: Speakers
-cta-button-1: Register
+cta-button-1: Participate
 logo: $assets.files.images.fastnfolio-logo.png
 
--- lib.hero: Web3 Innovators Nexus 2023
-text-1: July 29 2023
-text-2: 3pm - 7pm
-text-3: Kerala Startup Mission, Kochi
-cta-button-1: Register Now
+-- lib.hero: FASTNfolio
+text-1: August 15 - September 15 2023
+cta-button-1: Participate
 
-Fostering the growth of startups in the transformative world of Web3.
+Craft your digital identity
 
--- lib.about: About Web3 Innovator Nexus
+-- lib.about: About FASTNfolio
 pic: $assets.files.images.fastnfolio-logo.png
 
-Welcome to the Web3 Innovators Nexus, an event dedicated to fostering the growth of 
-startups in the transformative world of Web3.
+FASTNfolio, will be a one-of-a-kind event that motivates tech enthusiasts to create 
+impressive portfolio websites using the FASTN language. This campaign aims to inspire
+creativity, foster learning, and showcase the immense potential of FASTN in shaping the 
+future of web development.
 
-​At the Web3 Innovators Nexus, visionary entrepreneurs, technologists, investors, and 
-industry leaders come together to share insights and explore the limitless possibilities 
-of Web3 technologies.
+FASTN is very impressive in creating content centric static websites, FASTNfolio offers an 
+exceptional opportunity for participants to build captivating portfolio websites. For 
+anyone in their early-career stage, having a well-crafted portfolio is invaluable for 
+gaining recognition and career advancement
 
-​Attend engaging keynote speeches, panel discussions, and fireside chats delivered by 
-influential leaders at the forefront of Web3 innovation. Gain invaluable insights and 
-inspiration from their experiences and successes.
+-- lib.container-with-title: Why FASTNfolio?
 
-​Together, let's drive the evolution of Web3 technologies and unlock their true potential.
+-- lib.image-with-content: Showcase Skills and Creativity
+pic: $assets.files.images.community.png
+number: 01
 
+FASTNfolio provides a platform to showcase the best work and skills, attracting potential 
+employers and clients.
+
+-- lib.image-with-content: Opportunity to Learn FASTN:
+pic: $assets.files.images.community.png
+number: 02
+
+Participants can explore the unique features of FASTN and understand its advantages in web 
+development, gaining a competitive edge.
+
+-- lib.image-with-content: Fast and Functional Development
+pic: $assets.files.images.community.png
+number: 03
+
+With the support of the fastnui.trizwit.com component library, developers can efficiently 
+incorporate pre-built components, saving time while ensuring high-quality design and 
+functionality.
+
+
+
+-- end: lib.container-with-title
 
 -- lib.sponsor-section: Organized by
 
 -- lib.sponsor-card: 
+logo: $assets.files.images.Trizwit.png
+ 
+-- end: lib.sponsor-section
+
+-- lib.sponsor-section: Campus Partners
+
+-- lib.sponsor-card: GEC Palakkad
+logo: $assets.files.images.fastnfolio-logo.png
+
+-- lib.sponsor-card: LBSITW
+logo: $assets.files.images.Trizwit.png
+
+-- lib.sponsor-card: MACE
+logo: $assets.files.images.fastnfolio-logo.png
+
+-- lib.sponsor-card: GECT 
+logo: $assets.files.images.fastnfolio-logo.png
+
+-- lib.sponsor-card: Tinkerhub SNGCE
+logo: $assets.files.images.tinkerhub-sngce.png
+
+-- lib.sponsor-card: MEA
+logo: $assets.files.images.fastnfolio-logo.png
+
+-- lib.sponsor-card: MES
+logo: $assets.files.images.fastnfolio-logo.png
+
+-- lib.sponsor-card: SJCET
+logo: $assets.files.images.Trizwit.png
+
+-- lib.sponsor-card: GECI
 logo: $assets.files.images.fastnfolio-logo.png
  
 -- end: lib.sponsor-section
 
--- lib.sponsor-section: In Assoication with
+-- lib.container-with-title: How to contribute?
 
--- lib.sponsor-card: 
-logo: $assets.files.images.fastnfolio-logo.png
-
--- lib.sponsor-card: 
-logo: $assets.files.images.fastnfolio-logo.png
-
--- lib.sponsor-card: Kerala Startup Mission 
-logo: $assets.files.images.fastnfolio-logo.png
-
--- lib.sponsor-card: 
-logo: $assets.files.images.fastnfolio-logo.png
-
--- lib.sponsor-card: 
-logo: $assets.files.images.fastnfolio-logo.png
-
--- lib.sponsor-card: 
-logo: $assets.files.images.fastnfolio-logo.png
- 
--- end: lib.sponsor-section
-
--- ftd.row:
+-- ftd.iframe:
+youtube: https://youtu.be/3ardRc2R-OY
 width: fill-container
-wrap if { ftd.device == "mobile" } : true
+height.fixed.px if { ftd.device == "desktop" }: 768
+padding-horizontal.px if { ftd.device == "desktop" }: 120
+padding-horizontal.px if { ftd.device == "mobile" }: 24
+margin-bottom.px: 64
 
--- lib.sponsor-section: Technology Partner
+-- end: lib.container-with-title
 
--- lib.sponsor-card: 
-logo: $assets.files.images.Trizwit.png
- 
--- end: lib.sponsor-section
-
--- lib.sponsor-section: Academy Partner
-
--- lib.sponsor-card: 
-logo: $assets.files.images.Trizwit.png
- 
--- end: lib.sponsor-section
-
--- end: ftd.row
-
--- lib.carousel: Speakers
-
--- lib.blog-1: Jozef Jagan
-pic: $assets.files.images.fastnfolio.jpg
-title: Wallet Hunter
-number: 1
-
--- lib.blog-1: Mirzad Makhdoom
-pic: $assets.files.images.fastnfolio.jpg
-title: Tribe Academy
-number: 2
-
--- lib.blog-1: Vijay Pravin
-pic: $assets.files.images.fastnfolio.jpg
-title: BitsCrunch 
-number: 3
-
--- lib.blog-1: Deep
-pic: $assets.files.images.fastnfolio.jpg
-title: Google Cloud 
-number: 4
-
--- lib.blog-1: Vivek Prasannan
-pic: $assets.files.images.fastnfolio.jpg
-title: Polkadex 
-number: 5
-
--- lib.blog-1: Aditi Gupta
-pic: $assets.files.images.fastnfolio.jpg
-title: Nordek 
-number: 6
-
--- end: lib.carousel
-
-;;-- ftd.column:
-;;width: fill-container
-;;height.fixed.px: 1200
-;;align-content: center
-;;background.solid: Red
-
-;;-- web-components.carousel:
-
-;;-- end: ftd.column
 
 -- end: lib.page
 

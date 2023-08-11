@@ -202,7 +202,7 @@ spacing.fixed.px: 8
 align-content: center
 
 -- button.button-2: $navbar-mobile.cta-button-1
-link: https://lu.ma/web3innovatorsnexus
+link: https://github.com/Trizwit/fastnfoliotemp
 $on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
 
 -- end: ftd.row
@@ -339,7 +339,7 @@ align-content: right
 margin-right.vw: 4
 
 -- button.button-5: $navbar-desktop.cta-button-1
-link: https://lu.ma/web3innovatorsnexus
+link: https://github.com/Trizwit/fastnfoliotemp
 
 -- end: ftd.row
 
@@ -358,12 +358,14 @@ link: https://lu.ma/web3innovatorsnexus
 
 -- component footer:
 optional caption text:
-ftd.image-src logo: images/w3inexus-white.png
+optional ftd.image-src logo: 
 optional string url: 
-ftd.image-src icon-1: $assets.files.images.insta.svg
-string url-1: https://www.instagram.com/web3_innovators_nexus/
-ftd.image-src icon-2: $assets.files.images.twit.svg
-string url-2: https://twitter.com/Web3_Innovator
+ftd.image-src icon-1: $assets.files.images.linkedin.png
+ftd.image-src icon-2: $assets.files.images.github.svg
+ftd.image-src icon-3: $assets.files.images.twit.svg
+string url-1: https://www.linkedin.com/company/trizwit/
+string url-2: https://github.com/Trizwit
+string url-3: https://twitter.com/trizwit
 
 
 -- ftd.column:
@@ -375,7 +377,9 @@ margin-vertical.vh: 6
 -- ftd.row:
 margin-vertical.vh: 4
 
--- ftd.image: $footer.logo
+-- ftd.image: 
+if: { footer.logo != NULL}
+src: $footer.logo
 height.fixed.vh: 10
 
 -- end: ftd.row
@@ -398,6 +402,11 @@ link: $footer.url-1
 height.fixed.px: 32
 width.fixed.px: 32
 link: $footer.url-2
+
+-- ftd.image: $footer.icon-3
+height.fixed.px: 32
+width.fixed.px: 32
+link: $footer.url-3
 
 -- end: ftd.row
 
@@ -444,9 +453,9 @@ link: https://trizwit.com/
 
 -- component hero:
 caption heading:
-string text-1:
-string text-2:
-string text-3:
+optional string text-1:
+optional string text-2:
+optional string text-3:
 string cta-button-1:
 body content:
 
@@ -473,7 +482,15 @@ style: bold
 text-align: center
 color: white
 
+-- ftd.text: $hero.content
+margin-top.vh: 1
+margin-bottom.vh: 5
+role: $inherited.types.heading-large
+color: White
+text-align: center
+
 -- ftd.row:
+if: { hero.text-1 != NULL }
 spacing.fixed.px: 8
 
 -- ftd.image:
@@ -482,11 +499,11 @@ height.fixed.px: 24
 align-self: center
 
 -- ftd.text: $hero.text-1
+if: { hero.text-1 != NULL }
 margin-vertical.vh: 1
 role: $inherited.types.heading-small
 align-self: center
 color: white
-
 
 -- end: ftd.row
 
@@ -494,11 +511,13 @@ color: white
 spacing.fixed.px: 8
 
 -- ftd.image:
+if: { hero.text-2 != NULL }
 src: $assets.files.images.clock.svg
 height.fixed.px: 24
 align-self: center
 
 -- ftd.text: $hero.text-2
+if: { hero.text-2 != NULL }
 margin-vertical.vh: 1
 role: $inherited.types.heading-small
 align-self: center
@@ -507,6 +526,7 @@ color: white
 -- end: ftd.row
 
 -- ftd.row:
+if: { hero.text-3 != NULL }
 spacing.fixed.px: 8
 
 -- ftd.image:
@@ -515,6 +535,7 @@ height.fixed.px: 24
 align-self: center
 
 -- ftd.text: $hero.text-3
+if: { hero.text-3 != NULL }
 margin-vertical.vh: 1
 role: $inherited.types.heading-small
 align-self: center
@@ -523,16 +544,7 @@ color: #ffac1d
 -- end: ftd.row
 
 -- button.button-3: $hero.cta-button-1
-link: https://lu.ma/web3innovatorsnexus
-
--- ftd.text: $hero.content
-margin-top.vh: 1
-margin-bottom.vh: 5
-role: $inherited.types.heading-small
-color: White
-text-align: center
-
--- web-components.count-down:
+link: https://github.com/Trizwit/fastnfoliotemp
 
 -- end: ftd.column
 
@@ -553,10 +565,18 @@ style: bold
 text-align: center
 color: white
 
+-- ftd.text: $hero.content
+margin-top.vh: 1
+margin-bottom.vh: 5
+role: $inherited.types.heading-large
+style: regular
+color: White
+
 -- ftd.row:
 spacing.fixed.px: 16
 
 -- ftd.row:
+if: { hero.text-1 != NULL }
 spacing.fixed.px: 8
 
 -- ftd.image:
@@ -565,6 +585,7 @@ height.fixed.px: 48
 align-self: center
 
 -- ftd.text: $hero.text-1
+if: { hero.text-1 != NULL }
 margin-vertical.vh: 1
 role: $inherited.types.heading-medium
 align-self: center
@@ -573,6 +594,7 @@ color: white
 -- end: ftd.row
 
 -- ftd.row:
+if: { hero.text-2 != NULL }
 spacing.fixed.px: 8
 
 -- ftd.image:
@@ -581,6 +603,7 @@ height.fixed.px: 48
 align-self: center
 
 -- ftd.text: $hero.text-2
+if: { hero.text-2 != NULL }
 margin-vertical.vh: 1
 role: $inherited.types.heading-medium
 align-self: center
@@ -591,6 +614,7 @@ color: white
 -- end: ftd.row
 
 -- ftd.row:
+if: { hero.text-3 != NULL }
 spacing.fixed.px: 8
 
 -- ftd.image:
@@ -599,6 +623,7 @@ height.fixed.px: 48
 align-self: center
 
 -- ftd.text: $hero.text-3
+if: { hero.text-3 != NULL }
 margin-vertical.vh: 1
 role: $inherited.types.heading-medium
 align-self: center
@@ -607,15 +632,7 @@ color: #faac1d
 -- end: ftd.row
 
 -- button.button-4: $hero.cta-button-1
-link: https://lu.ma/web3innovatorsnexus
-
--- ftd.text: $hero.content
-margin-top.vh: 1
-margin-bottom.vh: 5
-role: $inherited.types.heading-small
-color: White
-
--- web-components.count-down:
+link: https://github.com/Trizwit/fastnfoliotemp
 
 -- end: ftd.column
 
@@ -922,6 +939,40 @@ wrap: true
 
 
 
+-- component container-with-title:
+caption title:
+children c:
+
+-- ftd.column:
+width: fill-container
+id: participate
+
+-- ftd.text: $container-with-title.title
+role: $inherited.types.heading-large
+color: #ffffff
+align-self: center
+margin-bottom.px if { ftd.device == "desktop" }: 100
+margin-bottom.px if { ftd.device == "mobile" }: 32
+
+-- ftd.column:
+width: fill-container
+children: $container-with-title.c
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: container-with-title
+
+
+
+
+
+
+
+
+
+
 -- component sponsor-card:
 optional caption name:
 ftd.image-src logo:
@@ -947,20 +998,175 @@ src: $sponsor-card.logo
 height.fixed.px: 100
 max-width.fixed.percent: 100
 
-;;-- ftd.text: $sponsor-card.name
-;;role: $inherited.types.heading-tiny
-;;color: #181939
-;;style: semi-bold
-;;margin-top.px: 16
+-- ftd.text: $sponsor-card.name
+if: { sponsor-card.name != NULL }
+role: $inherited.types.heading-tiny
+color: #181939
+style: semi-bold
+margin-top.px: 16
 
 -- end: ftd.column
 
 -- end: sponsor-card
 
 
--- ftd.type content:
-size.px: 16
-font-family: Poppins;
+
+
+
+
+
+
+
+
+-- component image-with-content:
+ftd.image-src pic:
+string number:
+caption title:
+body body:
+
+-- ftd.column:
+width: fill-container
+
+-- image-with-content-mobile:
+if: { ftd.device == "mobile" }
+pic: $image-with-content.pic
+number: $image-with-content.number
+title: $image-with-content.title
+body: $image-with-content.body
+
+-- image-with-content-desktop:
+if: { ftd.device == "desktop" }
+pic: $image-with-content.pic
+number: $image-with-content.number
+title: $image-with-content.title
+body: $image-with-content.body
+
+-- end: ftd.column
+
+-- end: image-with-content
+
+
+
+
+
+
+
+
+
+
+-- component image-with-content-mobile:
+ftd.image-src pic:
+string number:
+caption title:
+body body:
+
+-- ftd.column:
+width: fill-container
+margin-bottom.px: 56
+
+-- ftd.column:
+margin-horizontal.px: 20
+
+-- ftd.image:
+src: $image-with-content-mobile.pic
+width.fixed.percent: 90
+align-self: center
+border-radius.px: 20
+
+-- ftd.column:
+margin-vertical.px: 50
+
+-- ftd.text: $image-with-content-mobile.number
+style: bold
+role: $inherited.types.heading-large
+color: #FFFFFF
+margin-horizontal.px: 20
+opacity: 0.7
+
+-- ftd.text: $image-with-content-mobile.title
+align-self: center
+style: bold
+role: $inherited.types.heading-small
+css: [ $assets.files.gradient-1.css ]
+classes: color-2
+margin-bottom.px: 12
+
+-- ftd.text: $image-with-content-mobile.body
+role: $inherited.types.copy-regular
+color: #FFFFFF
+opacity: 0.7
+text-align: justify
+margin-horizontal.px: 20
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: image-with-content-mobile
+
+
+
+
+
+
+
+
+
+
+-- component image-with-content-desktop:
+ftd.image-src pic:
+string number:
+caption title:
+body body:
+
+-- ftd.column:
+width: fill-container
+margin-bottom.px: 100
+
+-- ftd.row:
+spacing.fixed.px: 200
+margin-horizontal.px: 80
+
+-- ftd.image:
+src: $image-with-content-desktop.pic
+border-radius.px: 20
+width.fixed.percent: 40
+height: auto
+align-self: center
+;; border-width.px: 5
+;; border-color: $inherited.colors.cta-primary.hover
+
+-- ftd.column:
+margin-vertical.px: 50
+align-self: center
+
+-- ftd.text: $image-with-content-desktop.number
+style: bold
+role: $inherited.types.heading-large
+color: #FFFFFF
+opacity: 0.7
+
+-- ftd.text: $image-with-content-desktop.title
+align-self: center
+role: $inherited.types.heading-medium
+css: [ $assets.files.gradient-1.css ]
+classes: color-2
+margin-bottom.px: 38
+
+-- ftd.text: $image-with-content-desktop.body
+role: $inherited.types.copy-regular
+color: #FFFFFF
+opacity: 0.7
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: image-with-content-desktop
 
 
 
