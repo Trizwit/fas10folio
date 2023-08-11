@@ -1,0 +1,14 @@
+.color-1 {
+    background-image: linear-gradient(180deg, #032676 13.78%, #6F59E9 100%);
+    color: black;
+    -webkit-background-clip: text;
+
+}
+
+.color-2 {
+    background-image: linear-gradient(180deg, #0701bd 13.78%, #00bbff 100%);
+    color: transparent;
+    -clip: text;
+    -webkit-background-clip: text;
+
+}

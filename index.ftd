@@ -1,0 +1,148 @@
+-- import: web3innovatorsnexus.xyz/lib
+-- import: web3innovatorsnexus.xyz/images
+-- import: web3innovatorsnexus.xyz/web-components
+
+-- lib.page:
+cta-text-1: Home
+cta-text-2: About
+cta-text-3: Partners
+cta-text-4: Speakers
+cta-button-1: Register
+logo: $assets.files.images.w3inexus-white.png
+
+-- lib.hero: Web3 Innovators Nexus 2023
+text-1: July 29 2023
+text-2: 3pm - 7pm
+text-3: Kerala Startup Mission, Kochi
+cta-button-1: Register Now
+
+Fostering the growth of startups in the transformative world of Web3.
+
+-- lib.about: About Web3 Innovator Nexus
+pic: $assets.files.images.web3.avif
+
+Welcome to the Web3 Innovators Nexus, an event dedicated to fostering the growth of 
+startups in the transformative world of Web3.
+
+​At the Web3 Innovators Nexus, visionary entrepreneurs, technologists, investors, and 
+industry leaders come together to share insights and explore the limitless possibilities 
+of Web3 technologies.
+
+​Attend engaging keynote speeches, panel discussions, and fireside chats delivered by 
+influential leaders at the forefront of Web3 innovation. Gain invaluable insights and 
+inspiration from their experiences and successes.
+
+​Together, let's drive the evolution of Web3 technologies and unlock their true potential.
+
+
+-- lib.sponsor-section: Organized by
+
+-- lib.sponsor-card: 
+logo: $assets.files.images.web32.png
+ 
+-- end: lib.sponsor-section
+
+-- lib.sponsor-section: In Assoication with
+
+-- lib.sponsor-card: 
+logo: $assets.files.images.google.svg
+
+-- lib.sponsor-card: 
+logo: $assets.files.images.wallethunter.png
+
+-- lib.sponsor-card: Kerala Startup Mission 
+logo: $assets.files.images.ksum.png
+
+-- lib.sponsor-card: 
+logo: $assets.files.images.nefto.png
+
+-- lib.sponsor-card: 
+logo: $assets.files.images.muzikartboard.svg
+
+-- lib.sponsor-card: 
+logo: $assets.files.images.Nordek.png
+ 
+-- end: lib.sponsor-section
+
+-- ftd.row:
+width: fill-container
+wrap if { ftd.device == "mobile" } : true
+
+-- lib.sponsor-section: Technology Partner
+
+-- lib.sponsor-card: 
+logo: $assets.files.images.Trizwit.png
+ 
+-- end: lib.sponsor-section
+
+-- lib.sponsor-section: Academy Partner
+
+-- lib.sponsor-card: 
+logo: $assets.files.images.tribe-2.png
+ 
+-- end: lib.sponsor-section
+
+-- end: ftd.row
+
+-- lib.carousel: Speakers
+
+-- lib.blog-1: Jozef Jagan
+pic: $assets.files.images.Jozef.png
+title: Wallet Hunter
+number: 1
+
+-- lib.blog-1: Mirzad Makhdoom
+pic: $assets.files.images.Mirzad.png
+title: Tribe Academy
+number: 2
+
+-- lib.blog-1: Vijay Pravin
+pic: $assets.files.images.Vijay-Parvin.jpg
+title: BitsCrunch 
+number: 3
+
+-- lib.blog-1: Deep
+pic: $assets.files.images.Deep.jpg
+title: Google Cloud 
+number: 4
+
+-- lib.blog-1: Vivek Prasannan
+pic: $assets.files.images.vivek.jpeg
+title: Polkadex 
+number: 5
+
+-- lib.blog-1: Aditi Gupta
+pic: $assets.files.images.Aditi.jpg
+title: Nordek 
+number: 6
+
+-- lib.blog-1: Krutika Lodaya
+pic: $assets.files.images.Krutika.jpg
+title: Wallet Hunter 
+number: 7
+
+-- lib.blog-1: Sangeet Muralidhar
+pic: $assets.files.images.sangeet.png
+title: KONMA DAO 
+number: 8
+
+-- lib.blog-1: Sneha Vijayan
+pic: $assets.files.images.sneha.jpeg
+title: Resolutio & DLA
+number: 9
+
+-- end: lib.carousel
+
+;;-- ftd.column:
+;;width: fill-container
+;;height.fixed.px: 1200
+;;align-content: center
+;;background.solid: Red
+
+;;-- web-components.carousel:
+
+;;-- end: ftd.column
+
+-- end: lib.page
+
+

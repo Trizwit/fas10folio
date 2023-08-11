@@ -1,0 +1,15 @@
+-- import: fastn
+
+-- fastn.package: web3innovatorsnexus.xyz
+favicon: /-/web3innovatorsnexus.xyz/images/w3inexus-white.png
+
+-- fastn.dependency: fastn-community.github.io/doc-site as doc-site
+-- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/roboto-typography
+-- fastn.dependency: sarvom.github.io/holy-angel-typography
+
+
+-- fastn.auto-import: web3innovatorsnexus.xyz/FASTN/ds
+-- fastn.auto-import: web3innovatorsnexus.xyz/assets
+-- fastn.auto-import: doc-site
+
