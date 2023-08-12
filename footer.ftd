@@ -1,6 +1,8 @@
 -- component footer:
 ftd.image-src icon-1:
 string url-1:
+ftd.image-src icon-2:
+string url-2:
 
 -- ftd.column:
 align-self: center
@@ -17,10 +19,22 @@ padding-bottom.px: 27
 border-bottom-width.px: 2
 
 -- ftd.image:
-src: $footer.icon-1
+src: $footer.icon-2
 height.fixed.px: 32
 width.fixed.px: 32
-link: $footer.url-1
+link: $footer.url-2
+
+-- ftd.image:
+src: $footer.icon-2
+height.fixed.px: 32
+width.fixed.px: 32
+link: $footer.url-2
+
+-- ftd.image:
+src: $footer.icon-3
+height.fixed.px: 32
+width.fixed.px: 32
+link: $footer.url-3
 
 -- end: ftd.row
 
