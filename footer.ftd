@@ -19,7 +19,7 @@ border-bottom-width.px: 2
 src: $footer.icon-1
 height.fixed.px: 32
 width.fixed.px: 32
-link: abc.xyz
+link: https://twitter.com/trizwit
 
 -- end: ftd.row
 
