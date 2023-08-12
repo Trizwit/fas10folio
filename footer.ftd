@@ -1,0 +1,85 @@
+-- component footer:
+optional caption text:
+optional ftd.image-src logo: 
+optional string url: 
+ftd.image-src icon-1: $assets.files.images.linkedin.png
+ftd.image-src icon-2: $assets.files.images.github.svg
+ftd.image-src icon-3: $assets.files.images.twit.svg
+string url-1: https://www.linkedin.com/company/trizwit/
+string url-2: https://github.com/Trizwit
+string url-3: https://twitter.com/trizwit
+
+
+-- ftd.column:
+align-self: center
+align-content: center
+width: fill-container
+margin-vertical.vh: 6
+
+-- ftd.row:
+margin-vertical.vh: 4
+
+-- ftd.image: 
+if: { footer.logo != NULL}
+src: $footer.logo
+height.fixed.vh: 10
+
+-- end: ftd.row
+
+-- ftd.row:
+width.fixed.percent: 90
+align-self: center
+align-content: center
+spacing.fixed.px: 24
+padding-bottom.px: 27
+border-bottom-width.px: 2
+color: white
+
+-- ftd.image: $footer.icon-1
+height.fixed.px: 32
+width.fixed.px: 32
+link: $footer.url-1
+
+-- ftd.image: $footer.icon-2
+height.fixed.px: 32
+width.fixed.px: 32
+link: $footer.url-2
+
+-- ftd.image: $footer.icon-3
+height.fixed.px: 32
+width.fixed.px: 32
+link: $footer.url-3
+
+-- end: ftd.row
+
+-- ftd.row:
+margin-top.vh: 1
+spacing.fixed.vh: 0.9
+
+-- ftd.text: Made with 
+role: $inherited.types.label-large
+style: semi-bold
+color: white
+
+-- ftd.text: FASTN 
+role: $inherited.types.label-large
+style: semi-bold
+color: white
+link: https://fastn.com/
+
+-- ftd.text: by
+role: $inherited.types.label-large
+style: semi-bold
+color: white
+
+-- ftd.text: Trizwit
+role: $inherited.types.label-large
+style: semi-bold
+color: white
+link: https://trizwit.com/
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: footer
