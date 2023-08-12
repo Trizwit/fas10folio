@@ -1,6 +1,8 @@
 -- import: trizwit.github.io/fastnfolio/hero as hero
 -- import: trizwit.github.io/fastnfolio/navbar as navbar
 -- import: trizwit.github.io/fastnfolio/lib
+-- import: trizwit.github.io/fastnfolio/content-section as content
+
 
 -- lib.page:
 
@@ -35,21 +37,21 @@ gaining recognition and career advancement
 -- lib.container-with-title: Why FASTNfolio?
 $container-id: why
 
--- lib.image-with-content: Showcase Skills and Creativity
+-- content.image-with-content: Showcase Skills and Creativity
 pic: $assets.files.images.community.png
 number: 01
 
 FASTNfolio provides a platform to showcase the best work and skills, attracting potential 
 employers and clients.
 
--- lib.image-with-content: Opportunity to Learn FASTN:
+-- content.image-with-content-2: Opportunity to Learn FASTN:
 pic: $assets.files.images.community.png
 number: 02
 
 Participants can explore the unique features of FASTN and understand its advantages in web 
 development, gaining a competitive edge.
 
--- lib.image-with-content: Fast and Functional Development
+-- content.image-with-content: Fast and Functional Development
 pic: $assets.files.images.community.png
 number: 03
 
@@ -104,6 +106,7 @@ $container-id: participate
 youtube: https://youtu.be/3ardRc2R-OY
 width: fill-container
 height.fixed.px if { ftd.device == "desktop" }: 768
+height.fixed.px if { ftd.device == "mobile" }: 256
 padding-horizontal.px if { ftd.device == "desktop" }: 120
 padding-horizontal.px if { ftd.device == "mobile" }: 24
 margin-bottom.px: 64

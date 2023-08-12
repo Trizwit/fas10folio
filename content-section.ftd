@@ -1,0 +1,305 @@
+-- import: trizwit.github.io/fastnfolio/common
+
+-- component image-with-content:
+ftd.image-src pic:
+string number:
+caption title:
+body body:
+
+-- ftd.column:
+width: fill-container
+
+-- image-with-content-mobile:
+if: { ftd.device == "mobile" }
+pic: $image-with-content.pic
+number: $image-with-content.number
+title: $image-with-content.title
+body: $image-with-content.body
+
+-- image-with-content-desktop:
+if: { ftd.device == "desktop" }
+pic: $image-with-content.pic
+number: $image-with-content.number
+title: $image-with-content.title
+body: $image-with-content.body
+
+-- end: ftd.column
+
+-- end: image-with-content
+
+
+
+
+
+
+
+
+
+
+-- component image-with-content-mobile:
+ftd.image-src pic:
+string number:
+caption title:
+body body:
+
+-- ftd.column:
+width: fill-container
+margin-bottom.px: 32
+
+-- ftd.column:
+margin-horizontal.px: 20
+
+-- ftd.image:
+src: $image-with-content-mobile.pic
+width.fixed.percent: 80
+align-self: center
+border-radius.px: 20
+
+-- ftd.column:
+margin-vertical.px: 24
+
+-- ftd.text: $image-with-content-mobile.number
+style: bold
+role: $inherited.types.heading-large
+color: #FFFFFF
+margin-horizontal.px: 20
+opacity: 0.7
+
+-- ftd.text: $image-with-content-mobile.title
+align-self: center
+style: bold
+role: $inherited.types.heading-medium
+css: [ $assets.files.gradient-1.css ]
+classes: color-2
+margin-bottom.px: 8
+
+-- ftd.text: $image-with-content-mobile.body
+role: $inherited.types.copy-regular
+color: #FFFFFF
+opacity: 0.7
+text-align: justify
+margin-horizontal.px: 20
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: image-with-content-mobile
+
+
+
+
+
+
+
+
+
+
+-- component image-with-content-desktop:
+ftd.image-src pic:
+string number:
+caption title:
+body body:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.row:
+spacing.fixed.px: 200
+margin-horizontal.px: 80
+
+-- ftd.image:
+src: $image-with-content-desktop.pic
+border-radius.px: 20
+width.fixed.percent: 40
+height: auto
+align-self: center
+
+-- ftd.column:
+margin-vertical.px: 50
+align-self: center
+
+-- ftd.text: $image-with-content-desktop.number
+style: bold
+role: $inherited.types.heading-large
+color: #FFFFFF
+opacity: 0.7
+
+-- ftd.text: $image-with-content-desktop.title
+align-self: center
+role: $inherited.types.heading-medium
+css: [ $assets.files.gradient-1.css ]
+classes: color-2
+margin-bottom.px: 38
+
+-- ftd.text: $image-with-content-desktop.body
+role: $inherited.types.copy-regular
+color: #FFFFFF
+opacity: 0.7
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: image-with-content-desktop
+
+
+
+
+
+
+
+
+
+
+
+-- component image-with-content-2:
+ftd.image-src pic:
+string number:
+caption title:
+body body:
+
+-- ftd.column:
+width: fill-container
+
+-- image-with-content-mobile-2:
+if: { ftd.device == "mobile" }
+pic: $image-with-content-2.pic
+number: $image-with-content-2.number
+title: $image-with-content-2.title
+body: $image-with-content-2.body
+
+-- image-with-content-desktop-2:
+if: { ftd.device == "desktop" }
+pic: $image-with-content-2.pic
+number: $image-with-content-2.number
+title: $image-with-content-2.title
+body: $image-with-content-2.body
+
+-- end: ftd.column
+
+-- end: image-with-content-2
+
+
+
+
+
+
+
+
+
+
+-- component image-with-content-mobile-2:
+ftd.image-src pic:
+string number:
+caption title:
+body body:
+
+-- ftd.column:
+width: fill-container
+margin-bottom.px: 32
+
+-- ftd.column:
+margin-horizontal.px: 20
+
+-- ftd.image:
+src: $image-with-content-mobile-2.pic
+width.fixed.percent: 80
+align-self: center
+border-radius.px: 20
+
+-- ftd.column:
+margin-vertical.px: 24
+
+-- ftd.text: $image-with-content-mobile-2.number
+style: bold
+role: $inherited.types.heading-large
+color: #FFFFFF
+margin-horizontal.px: 20
+opacity: 0.7
+
+-- ftd.text: $image-with-content-mobile-2.title
+align-self: center
+style: bold
+role: $inherited.types.heading-medium
+css: [ $assets.files.gradient-1.css ]
+classes: color-2
+margin-bottom.px: 8
+
+-- ftd.text: $image-with-content-mobile-2.body
+role: $inherited.types.copy-regular
+color: #FFFFFF
+opacity: 0.7
+text-align: justify
+margin-horizontal.px: 20
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: image-with-content-mobile-2
+
+
+
+
+
+
+
+
+
+
+-- component image-with-content-desktop-2:
+ftd.image-src pic:
+string number:
+caption title:
+body body:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.row:
+spacing.fixed.px: 200
+margin-horizontal.px: 80
+
+-- ftd.column:
+margin-vertical.px: 50
+align-self: center
+
+-- ftd.text: $image-with-content-desktop-2.number
+style: bold
+role: $inherited.types.heading-large
+color: #FFFFFF
+opacity: 0.7
+
+-- ftd.text: $image-with-content-desktop-2.title
+align-self: center
+role: $inherited.types.heading-medium
+css: [ $assets.files.gradient-1.css ]
+classes: color-2
+margin-bottom.px: 38
+
+-- ftd.text: $image-with-content-desktop-2.body
+role: $inherited.types.copy-regular
+color: #FFFFFF
+opacity: 0.7
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $image-with-content-desktop-2.pic
+border-radius.px: 20
+width.fixed.percent: 40
+height: auto
+align-self: center
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: image-with-content-desktop-2
