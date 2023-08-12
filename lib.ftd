@@ -40,6 +40,7 @@ icon-2: $assets.files.images.twit.svg
 url-2: https://twitter.com/trizwit
 icon-3: $assets.files.images.twit.svg
 url-3: https://twitter.com/trizwit
+
 -- end: ftd.column
 
 -- end: page
