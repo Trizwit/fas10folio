@@ -1,5 +1,6 @@
 -- component footer:
 ftd.image-src icon-1:
+string url-1:
 
 -- ftd.column:
 align-self: center
@@ -19,7 +20,7 @@ border-bottom-width.px: 2
 src: $footer.icon-1
 height.fixed.px: 32
 width.fixed.px: 32
-link: https://twitter.com/trizwit
+link: $footer.url-1
 
 -- end: ftd.row
 
