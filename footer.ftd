@@ -1,6 +1,5 @@
 -- component footer:
 ftd.image-src icon-1:
-string url-1:
 
 -- ftd.column:
 align-self: center
