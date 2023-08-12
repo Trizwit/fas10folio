@@ -1,5 +1,6 @@
 -- import: trizwit.github.io/fastnfolio/lib
 -- import: trizwit.github.io/fastnfolio/images
+-- import: trizwit.github.io/fastnfolio/hero as hero
 -- import: trizwit.github.io/fastnfolio/web-components
 
 -- lib.page:
@@ -10,7 +11,7 @@ cta-text-4: Contribute
 cta-button-1: Participate
 logo: $assets.files.images.fastnfolio-logo.png
 
--- lib.hero: FASTNfolio
+-- hero.hero: FASTNfolio
 text-1: August 15 - September 15 2023
 cta-button-1: Participate
 

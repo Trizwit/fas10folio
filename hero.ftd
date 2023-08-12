@@ -1,0 +1,194 @@
+-- import: trizwit.github.io/fastnfolio/button as button
+
+
+
+-- component hero:
+caption heading:
+optional string text-1:
+optional string text-2:
+optional string text-3:
+string cta-button-1:
+body content:
+
+-- ftd.column:
+width: fill-container
+background.image: images/bg.png
+
+-- ftd.column:
+if: { ftd.device == "mobile" }
+align-content: center
+background.image: images/bg-2.png
+height.fixed.vh: 100
+
+-- ftd.column:
+margin-vertical.px: 24
+width: fill-container
+padding-horizontal.vw: 5
+align-content: center
+align-self: center
+
+-- ftd.text: $hero.heading
+role: $inherited.types.heading-hero
+style: bold
+text-align: center
+color: white
+
+-- ftd.text: $hero.content
+margin-top.vh: 1
+margin-bottom.vh: 5
+role: $inherited.types.heading-large
+color: White
+text-align: center
+
+-- ftd.row:
+if: { hero.text-1 != NULL }
+spacing.fixed.px: 8
+
+-- ftd.image:
+src: $assets.files.images.calendar.png
+height.fixed.px: 24
+align-self: center
+
+-- ftd.text: $hero.text-1
+if: { hero.text-1 != NULL }
+margin-vertical.vh: 1
+role: $inherited.types.heading-small
+align-self: center
+color: white
+
+-- end: ftd.row
+
+-- ftd.row:
+spacing.fixed.px: 8
+
+-- ftd.image:
+if: { hero.text-2 != NULL }
+src: $assets.files.images.clock.svg
+height.fixed.px: 24
+align-self: center
+
+-- ftd.text: $hero.text-2
+if: { hero.text-2 != NULL }
+margin-vertical.vh: 1
+role: $inherited.types.heading-small
+align-self: center
+color: white
+
+-- end: ftd.row
+
+-- ftd.row:
+if: { hero.text-3 != NULL }
+spacing.fixed.px: 8
+
+-- ftd.image:
+src: $assets.files.images.location-2.png
+height.fixed.px: 24
+align-self: center
+
+-- ftd.text: $hero.text-3
+if: { hero.text-3 != NULL }
+margin-vertical.vh: 1
+role: $inherited.types.heading-small
+align-self: center
+color: #ffac1d
+
+-- end: ftd.row
+
+-- button.button-3: $hero.cta-button-1
+link: https://github.com/Trizwit/fastnfoliotemp
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- ftd.row:
+width: fill-container
+if: { ftd.device == "desktop" }
+
+-- ftd.column:
+padding.vh: 16
+width: fill-container
+align-content: center
+
+-- ftd.text: $hero.heading
+role: $inherited.types.heading-hero
+style: bold
+text-align: center
+color: white
+
+-- ftd.text: $hero.content
+margin-top.vh: 1
+margin-bottom.vh: 5
+role: $inherited.types.heading-large
+style: regular
+color: White
+
+-- ftd.row:
+spacing.fixed.px: 16
+
+-- ftd.row:
+if: { hero.text-1 != NULL }
+spacing.fixed.px: 8
+
+-- ftd.image:
+src: $assets.files.images.calendar.png
+height.fixed.px: 48
+align-self: center
+
+-- ftd.text: $hero.text-1
+if: { hero.text-1 != NULL }
+margin-vertical.vh: 1
+role: $inherited.types.heading-medium
+align-self: center
+color: white
+
+-- end: ftd.row
+
+-- ftd.row:
+if: { hero.text-2 != NULL }
+spacing.fixed.px: 8
+
+-- ftd.image:
+src: $assets.files.images.clock.svg
+height.fixed.px: 48
+align-self: center
+
+-- ftd.text: $hero.text-2
+if: { hero.text-2 != NULL }
+margin-vertical.vh: 1
+role: $inherited.types.heading-medium
+align-self: center
+color: white
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- ftd.row:
+if: { hero.text-3 != NULL }
+spacing.fixed.px: 8
+
+-- ftd.image:
+src: $assets.files.images.location-2.png
+height.fixed.px: 48
+align-self: center
+
+-- ftd.text: $hero.text-3
+if: { hero.text-3 != NULL }
+margin-vertical.vh: 1
+role: $inherited.types.heading-medium
+align-self: center
+color: #faac1d
+
+-- end: ftd.row
+
+-- button.button-4: $hero.cta-button-1
+link: https://github.com/Trizwit/fastnfoliotemp
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: hero

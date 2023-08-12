@@ -1,0 +1,296 @@
+-- import: trizwit.github.io/fastnfolio/common
+-- import: trizwit.github.io/fastnfolio/button as button
+
+
+-- component navbar:
+ftd.image-src logo:
+optional caption name:
+optional string cta-text-1:
+optional string cta-text-2:
+optional string cta-text-3:
+optional string cta-text-4:
+optional string cta-text-5:
+optional string cta-text-6:
+optional string cta-text-7:
+optional string cta-text-8:
+optional string cta-text-9:
+optional string cta-text-10:
+optional string cta-button-1:
+optional string cta-button-2:
+
+-- ftd.column:
+width: fill-container
+z-index: 1000
+sticky: true
+
+-- navbar-mobile:
+if: { ftd.device == "mobile" }
+name: $navbar.name
+cta-text-1: $navbar.cta-text-1
+cta-text-2: $navbar.cta-text-2
+cta-text-3: $navbar.cta-text-3
+cta-text-4: $navbar.cta-text-4
+cta-button-1: $navbar.cta-button-1
+logo: $navbar.logo
+
+
+-- navbar-desktop:
+if: { ftd.device == "desktop" }
+name: $navbar.name
+cta-text-1: $navbar.cta-text-1
+cta-text-2: $navbar.cta-text-2
+cta-text-3: $navbar.cta-text-3
+cta-text-4: $navbar.cta-text-4
+cta-button-1: $navbar.cta-button-1
+logo: $navbar.logo
+
+-- end: ftd.column
+
+-- end: navbar
+
+
+
+
+
+
+
+
+
+
+-- component navbar-mobile:
+ftd.image-src logo:
+optional caption name:
+optional string cta-text-1:
+optional string cta-text-2:
+optional string cta-text-3:
+optional string cta-text-4:
+optional string cta-text-5:
+optional string cta-text-6:
+optional string cta-text-7:
+optional string cta-text-8:
+optional string cta-text-9:
+optional string cta-text-10:
+optional string cta-button-1:
+optional string cta-button-2:
+ftd.image-src menu: $assets.files.images.menu.svg
+ftd.image-src close: $assets.files.images.close.svg
+boolean $open: false
+
+-- ftd.column:
+padding.px: 8
+width: fill-container
+background.solid: #181939
+height: hug-content
+
+-- ftd.row:
+width: fill-container
+spacing: space-between
+
+-- ftd.image:
+src: $navbar-mobile.logo
+height.fixed.px: 40
+margin-left.px: 8
+
+-- ftd.image:
+if: { !navbar-mobile.open }
+height.fixed.px: 32
+align-self: center
+src: $navbar-mobile.menu
+$on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = true)
+
+-- ftd.image:
+if: { navbar-mobile.open }
+height.fixed.px: 32
+align-self: center
+src: $navbar-mobile.close
+$on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
+
+-- end: ftd.row
+
+-- ftd.column:
+if: { navbar-mobile.open }
+margin-top.px: 16
+width: fill-container
+spacing.fixed.px: 8
+align-content: left
+padding-left.px: 16
+
+-- ftd.text: $navbar-mobile.cta-text-1
+role: $inherited.types.heading-tiny
+margin-top.px: 8
+color: white
+link: index.html
+
+-- ftd.text: $navbar-mobile.cta-text-2
+role: $inherited.types.heading-tiny
+margin-top.px: 8
+color: white
+link: index.html#aboutus
+$on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
+
+
+-- ftd.text: $navbar-mobile.cta-text-3
+role: $inherited.types.heading-tiny
+margin-top.px: 8
+color: white
+link: index.html#sponsors
+$on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
+
+-- ftd.text: $navbar-mobile.cta-text-4
+role: $inherited.types.heading-tiny
+margin-top.px: 8
+color: white
+link: index.html#speakers
+$on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
+
+-- ftd.row:
+width: fill-container
+margin-top.px: 24
+spacing.fixed.px: 8
+align-content: center
+
+-- button.button-2: $navbar-mobile.cta-button-1
+link: https://github.com/Trizwit/fastnfoliotemp
+$on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: navbar-mobile
+
+
+
+
+
+
+
+
+
+
+-- component navbar-desktop:
+ftd.image-src logo:
+optional caption name:
+optional string cta-text-1:
+optional string cta-text-2:
+optional string cta-text-3:
+optional string cta-text-4:
+optional string cta-text-5:
+optional string cta-text-6:
+optional string cta-text-7:
+optional string cta-text-8:
+optional string cta-text-9:
+optional string cta-text-10:
+optional string cta-button-1:
+optional string cta-button-2:
+boolean $is-active-1: false
+boolean $is-active-2: false
+boolean $is-active-3: false
+boolean $is-active-4: false
+boolean $is-active-5: false
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 16
+padding.vh: 1
+height.fixed.vh: 10
+background.solid: #181939
+align-content: center
+z-index: 99999
+sticky: true
+
+-- ftd.image:
+src: $navbar-desktop.logo
+height.fixed.px: 64
+padding.vh: 1
+align-self: center
+
+-- ftd.column:
+height: fill-container
+align-content: center
+margin-horizontal.vh: 2
+border-bottom-width.px if { navbar-desktop.is-active-1}: 4
+border-color: #f20487
+$on-mouse-enter$: $ftd.set-bool($a = $navbar-desktop.is-active-1, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar-desktop.is-active-1, v = false)
+
+-- ftd.text: $navbar-desktop.cta-text-1
+role: $inherited.types.label-large
+style: semi-bold
+color: white
+align-self: center
+link: index.html
+
+-- end: ftd.column
+
+-- ftd.column:
+height: fill-container
+align-content: center
+margin-horizontal.vh: 2
+border-bottom-width.px if { navbar-desktop.is-active-2}: 4
+border-color: #f20487
+$on-mouse-enter$: $ftd.set-bool($a = $navbar-desktop.is-active-2, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar-desktop.is-active-2, v = false)
+
+-- ftd.text: $navbar-desktop.cta-text-2
+role: $inherited.types.label-large
+style: semi-bold
+color: white
+align-self: center
+link: index.html#aboutus
+
+-- end: ftd.column
+
+-- ftd.column:
+height: fill-container
+align-content: center
+margin-horizontal.vh: 2
+border-bottom-width.px if { navbar-desktop.is-active-3}: 4
+border-color: #f20487
+$on-mouse-enter$: $ftd.set-bool($a = $navbar-desktop.is-active-3, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar-desktop.is-active-3, v = false)
+
+-- ftd.text: $navbar-desktop.cta-text-3
+role: $inherited.types.label-large
+style: semi-bold
+color: white
+align-self: center
+link: index.html#sponsors
+
+
+-- end: ftd.column
+
+-- ftd.column:
+height: fill-container
+align-content: center
+margin-horizontal.vh: 2
+border-bottom-width.px if { navbar-desktop.is-active-4}: 4
+border-color: #f20487
+$on-mouse-enter$: $ftd.set-bool($a = $navbar-desktop.is-active-4, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar-desktop.is-active-4, v = false)
+
+-- ftd.text: $navbar-desktop.cta-text-4
+role: $inherited.types.label-large
+style: semi-bold
+color: white
+align-self: center
+link: index.html#speakers
+
+-- end: ftd.column
+
+-- ftd.row:
+spacing.fixed.px: 16
+align-self: center
+align-content: right
+margin-right.vw: 4
+
+-- button.button-5: $navbar-desktop.cta-button-1
+link: https://github.com/Trizwit/fastnfoliotemp
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: navbar-desktop
