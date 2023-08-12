@@ -110,12 +110,4 @@ margin-bottom.px: 64
 
 -- end: lib.container-with-title
 
--- footer.footer:
-icon-1: $assets.files.images.linkedin.png
-icon-2: $assets.files.images.github.svg
-icon-3: $assets.files.images.twit.svg
-url-1: https://www.linkedin.com/company/trizwit/
-url-2: https://github.com/Trizwit
-url-3: https://twitter.com/trizwit
-
 -- end: lib.page
