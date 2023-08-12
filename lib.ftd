@@ -458,8 +458,6 @@ border-radius.px: 20
 width.fixed.percent: 40
 height: auto
 align-self: center
-;; border-width.px: 5
-;; border-color: $inherited.colors.cta-primary.hover
 
 -- ftd.column:
 margin-vertical.px: 50
@@ -490,4 +488,3 @@ opacity: 0.7
 -- end: ftd.column
 
 -- end: image-with-content-desktop
-
