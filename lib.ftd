@@ -7,7 +7,7 @@
 
 
 -- component page:
-ftd.image-src logo:
+optional ftd.image-src logo:
 optional string cta-text-1: 
 optional string cta-text-2: 
 optional string cta-text-3: 
@@ -32,8 +32,6 @@ width: fill-container
 children: $page.c
 
 -- end: ftd.column
-
--- footer.footer: Powered By
 
 -- end: ftd.column
 
