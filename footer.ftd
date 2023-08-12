@@ -22,17 +22,20 @@ padding-bottom.px: 27
 border-bottom-width.px: 2
 color: white
 
--- ftd.image: $footer.icon-1
+-- ftd.image: 
+src: $footer.icon-1
 height.fixed.px: 32
 width.fixed.px: 32
 link: $footer.url-1
 
--- ftd.image: $footer.icon-2
+-- ftd.image: 
+src: $footer.icon-2
 height.fixed.px: 32
 width.fixed.px: 32
 link: $footer.url-2
 
--- ftd.image: $footer.icon-3
+-- ftd.image: 
+src: $footer.icon-3
 height.fixed.px: 32
 width.fixed.px: 32
 link: $footer.url-3
