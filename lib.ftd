@@ -1,5 +1,5 @@
 -- import: trizwit.github.io/fastnfolio/common
--- import: trizwit.github.io/fastnfolio/common/button
+-- import: trizwit.github.io/fastnfolio/button as button
 -- import: trizwit.github.io/fastnfolio/web-components
 -- import: sarvom.github.io/holy-angel-typography 
 

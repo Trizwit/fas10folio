@@ -6,7 +6,6 @@ favicon: /-/trizwit.github.io/fastnfolio/images/fastnfolio.jpg
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
--- fastn.dependency: trizwit.github.io/fastnfolio/common
 -- fastn.dependency: sarvom.github.io/holy-angel-typography
 
 
