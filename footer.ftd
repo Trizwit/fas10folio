@@ -18,7 +18,6 @@ border-bottom-width.px: 2
 
 -- ftd.image:
 src: $footer.icon-1
-link: $footer.url-l
 height.fixed.px: 32
 width.fixed.px: 32
 

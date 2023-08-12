@@ -35,7 +35,6 @@ children: $page.c
 
 -- footer.footer:
 icon-1: $assets.files.images.twit.svg
-url-1: https://github.com/Sarvom/fastn-test/tree/main/common
 
 -- end: ftd.column
 
