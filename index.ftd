@@ -110,4 +110,6 @@ margin-bottom.px: 64
 
 -- end: lib.container-with-title
 
+-- footer.footer:
+
 -- end: lib.page
