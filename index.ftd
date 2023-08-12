@@ -2,7 +2,6 @@
 -- import: trizwit.github.io/fastnfolio/navbar as navbar
 -- import: trizwit.github.io/fastnfolio/lib
 
-
 -- lib.page:
 
 -- navbar.navbar: 
@@ -11,6 +10,7 @@ cta-text-2: About
 cta-text-3: Campus Partners
 cta-text-4: Contribute
 cta-button-1: Participate
+cta-button-1-url: https://github.com/Trizwit/fastnfoliotemp
 logo: $assets.files.images.fastnfolio-logo.png
 
 -- hero.hero: FASTNfolio
@@ -18,7 +18,6 @@ text-1: August 15 - September 15 2023
 cta-button-1: Participate
 
 Craft your digital identity
-
 
 -- lib.about: About FASTNfolio
 pic: $assets.files.images.fastnfolio-logo.png

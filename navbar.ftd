@@ -16,6 +16,7 @@ optional string cta-text-8:
 optional string cta-text-9:
 optional string cta-text-10:
 optional string cta-button-1:
+optional string cta-button-1-url:
 optional string cta-button-2:
 
 -- ftd.column:
@@ -31,6 +32,7 @@ cta-text-2: $navbar.cta-text-2
 cta-text-3: $navbar.cta-text-3
 cta-text-4: $navbar.cta-text-4
 cta-button-1: $navbar.cta-button-1
+cta-button-1-url: $navbar.cta-button-1-url
 logo: $navbar.logo
 
 
@@ -42,6 +44,7 @@ cta-text-2: $navbar.cta-text-2
 cta-text-3: $navbar.cta-text-3
 cta-text-4: $navbar.cta-text-4
 cta-button-1: $navbar.cta-button-1
+cta-button-1-url: $navbar.cta-button-1-url
 logo: $navbar.logo
 
 -- end: ftd.column
@@ -71,6 +74,7 @@ optional string cta-text-8:
 optional string cta-text-9:
 optional string cta-text-10:
 optional string cta-button-1:
+optional string cta-button-1-url:
 optional string cta-button-2:
 ftd.image-src menu: $assets.files.images.menu.svg
 ftd.image-src close: $assets.files.images.close.svg
@@ -150,7 +154,7 @@ spacing.fixed.px: 8
 align-content: center
 
 -- button.button-2: $navbar-mobile.cta-button-1
-link: https://github.com/Trizwit/fastnfoliotemp
+link: $navbar-mobile.cta-button-1-url
 $on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
 
 -- end: ftd.row
@@ -184,12 +188,8 @@ optional string cta-text-8:
 optional string cta-text-9:
 optional string cta-text-10:
 optional string cta-button-1:
+optional string cta-button-1-url:
 optional string cta-button-2:
-boolean $is-active-1: false
-boolean $is-active-2: false
-boolean $is-active-3: false
-boolean $is-active-4: false
-boolean $is-active-5: false
 
 -- ftd.row:
 width: fill-container
@@ -207,78 +207,21 @@ height.fixed.px: 64
 padding.vh: 1
 align-self: center
 
--- ftd.column:
-height: fill-container
-align-content: center
-margin-horizontal.vh: 2
-border-bottom-width.px if { navbar-desktop.is-active-1}: 4
-border-color: #f20487
-$on-mouse-enter$: $ftd.set-bool($a = $navbar-desktop.is-active-1, v = true)
-$on-mouse-leave$: $ftd.set-bool($a = $navbar-desktop.is-active-1, v = false)
+-- navbar-text: 
+cta-text: $navbar-desktop.cta-text-1
+cta-text-url: index.html
 
--- ftd.text: $navbar-desktop.cta-text-1
-role: $inherited.types.label-large
-style: semi-bold
-color: white
-align-self: center
-link: index.html
+-- navbar-text: 
+cta-text: $navbar-desktop.cta-text-2
+cta-text-url: index.html#aboutus
 
--- end: ftd.column
+-- navbar-text: 
+cta-text: $navbar-desktop.cta-text-3
+cta-text-url: index.html#sponsors
 
--- ftd.column:
-height: fill-container
-align-content: center
-margin-horizontal.vh: 2
-border-bottom-width.px if { navbar-desktop.is-active-2}: 4
-border-color: #f20487
-$on-mouse-enter$: $ftd.set-bool($a = $navbar-desktop.is-active-2, v = true)
-$on-mouse-leave$: $ftd.set-bool($a = $navbar-desktop.is-active-2, v = false)
-
--- ftd.text: $navbar-desktop.cta-text-2
-role: $inherited.types.label-large
-style: semi-bold
-color: white
-align-self: center
-link: index.html#aboutus
-
--- end: ftd.column
-
--- ftd.column:
-height: fill-container
-align-content: center
-margin-horizontal.vh: 2
-border-bottom-width.px if { navbar-desktop.is-active-3}: 4
-border-color: #f20487
-$on-mouse-enter$: $ftd.set-bool($a = $navbar-desktop.is-active-3, v = true)
-$on-mouse-leave$: $ftd.set-bool($a = $navbar-desktop.is-active-3, v = false)
-
--- ftd.text: $navbar-desktop.cta-text-3
-role: $inherited.types.label-large
-style: semi-bold
-color: white
-align-self: center
-link: index.html#sponsors
-
-
--- end: ftd.column
-
--- ftd.column:
-height: fill-container
-align-content: center
-margin-horizontal.vh: 2
-border-bottom-width.px if { navbar-desktop.is-active-4}: 4
-border-color: #f20487
-$on-mouse-enter$: $ftd.set-bool($a = $navbar-desktop.is-active-4, v = true)
-$on-mouse-leave$: $ftd.set-bool($a = $navbar-desktop.is-active-4, v = false)
-
--- ftd.text: $navbar-desktop.cta-text-4
-role: $inherited.types.label-large
-style: semi-bold
-color: white
-align-self: center
-link: index.html#participate
-
--- end: ftd.column
+-- navbar-text: 
+cta-text: $navbar-desktop.cta-text-4
+cta-text-url: index.html#participate
 
 -- ftd.row:
 spacing.fixed.px: 16
@@ -287,10 +230,44 @@ align-content: right
 margin-right.vw: 4
 
 -- button.button-5: $navbar-desktop.cta-button-1
-link: https://github.com/Trizwit/fastnfoliotemp
+link: $navbar-desktop.cta-button-1-url
 
 -- end: ftd.row
 
 -- end: ftd.row
 
 -- end: navbar-desktop
+
+
+
+
+
+
+
+
+
+
+-- component navbar-text:
+boolean $is-active: false
+string cta-text:
+string cta-text-url:
+
+-- ftd.column:
+height: fill-container
+align-content: center
+margin-horizontal.vh: 2
+border-bottom-width.px if { navbar-text.is-active }: 4
+border-color: #f20487
+$on-mouse-enter$: $ftd.set-bool($a = $navbar-text.is-active, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar-text.is-active, v = false)
+
+-- ftd.text: $navbar-text.cta-text
+role: $inherited.types.label-large
+style: semi-bold
+color: white
+align-self: center
+link: $$navbar-text.cta-text-url
+
+-- end: ftd.column
+
+-- end: navbar-text
