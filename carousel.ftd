@@ -1,0 +1,60 @@
+-- component carousel:
+caption title:
+children wrap:
+
+-- ftd.column:
+width: fill-container
+id: speakers
+
+-- ftd.column:
+align-content: center
+margin-vertical.vh if { ftd.device == "desktop" } : 10
+margin-vertical.vh if { ftd.device == "mobile" } : 1
+
+-- ftd.text: $carousel.title
+role: $inherited.types.heading-large
+margin-vertical.vh: 3
+color: White
+
+-- ftd.column:
+if: { ftd.device == "desktop" }
+width: fill-container
+padding-horizontal.px: 12
+align-content: center
+
+-- ftd.column:
+width: fill-container
+padding-vertical.px: 24
+padding-horizontal.px: 12
+align-content: center
+
+-- ftd.row:
+children: $carousel.wrap
+spacing.fixed.px: 32
+width: fill-container
+align-content: center
+padding-horizontal.px: 12
+wrap: true
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- ftd.column:
+if: { ftd.device == "mobile" }
+children: $carousel.wrap
+spacing.fixed.px: 32
+width.fixed.percent: 85
+align-content: center
+padding-horizontal.px: 12
+z-index: 0
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: carousel
