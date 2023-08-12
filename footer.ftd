@@ -1,46 +1,10 @@
 -- component footer:
-optional ftd.image-src icon-1: 
-optional ftd.image-src icon-2: 
-optional ftd.image-src icon-3: 
-optional string url-1:
-optional string url-2: 
-optional string url-3: 
-
 
 -- ftd.column:
 align-self: center
 align-content: center
 width: fill-container
 margin-vertical.vh: 6
-
--- ftd.row:
-width.fixed.percent: 90
-align-self: center
-align-content: center
-spacing.fixed.px: 24
-padding-bottom.px: 27
-border-bottom-width.px: 2
-color: white
-
--- ftd.image: 
-src: $footer.icon-1
-height.fixed.px: 32
-width.fixed.px: 32
-link: $footer.url-1
-
--- ftd.image: 
-src: $footer.icon-2
-height.fixed.px: 32
-width.fixed.px: 32
-link: $footer.url-2
-
--- ftd.image: 
-src: $footer.icon-3
-height.fixed.px: 32
-width.fixed.px: 32
-link: $footer.url-3
-
--- end: ftd.row
 
 -- ftd.row:
 margin-top.vh: 1

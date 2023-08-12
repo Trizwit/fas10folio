@@ -33,6 +33,8 @@ children: $page.c
 
 -- end: ftd.column
 
+-- footer.footer:
+
 -- end: ftd.column
 
 -- end: page
