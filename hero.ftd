@@ -12,7 +12,6 @@ body content:
 
 -- ftd.column:
 width: fill-container
-background.image: images/bg.png
 
 -- hero-mobile:
 if: { ftd.device == "mobile" }
@@ -44,7 +43,7 @@ body content:
 -- ftd.column:
 width: fill-container
 align-content: center
-background.image: images/bg-2.png
+background.image: $assets.files.images.bg-2.png
 height.fixed.vh: 100
 
 -- ftd.column:
@@ -145,11 +144,13 @@ body content:
 
 -- ftd.row:
 width: fill-container
+background.image: $assets.files.images.bg.png
 
 -- ftd.column:
 padding.vh: 16
 width: fill-container
 align-content: center
+align-self: center
 
 -- ftd.text: $hero-desktop.heading
 role: $inherited.types.heading-hero

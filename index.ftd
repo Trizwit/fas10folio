@@ -69,7 +69,7 @@ logo: $assets.files.images.Trizwit.png
 -- lib.sponsor-section: Campus Partners
 
 -- lib.sponsor-card: GEC Palakkad
-logo: $assets.files.images.fastnfolio-logo.png
+logo: $assets.files.images.foss-gecp.png
 
 -- lib.sponsor-card: LBSITW
 logo: $assets.files.images.Trizwit.png
@@ -84,16 +84,16 @@ logo: $assets.files.images.fastnfolio-logo.png
 logo: $assets.files.images.tinkerhub-sngce.png
 
 -- lib.sponsor-card: MEA
-logo: $assets.files.images.fastnfolio-logo.png
+logo: $assets.files.images.ieee-mea-sb.png
 
 -- lib.sponsor-card: MES
-logo: $assets.files.images.fastnfolio-logo.png
+logo: $assets.files.images.iedc-mes.png
 
 -- lib.sponsor-card: SJCET
-logo: $assets.files.images.Trizwit.png
+logo: $assets.files.images.ieee-sb-sjcet.png
 
 -- lib.sponsor-card: GECI
-logo: $assets.files.images.fastnfolio-logo.png
+logo: $assets.files.images.ulearn-geci.png
  
 -- end: lib.sponsor-section
 
