@@ -1,4 +1,15 @@
 -- import: trizwit.github.io/fastnfolio/hero as hero
+-- import: trizwit.github.io/fastnfolio/navbar as navbar
+-- import: trizwit.github.io/fastnfolio/footer as footer
+
+
+-- navbar.navbar: 
+cta-text-1: Home
+cta-text-2: About
+cta-text-3: Campus Partners
+cta-text-4: Contribute
+cta-button-1: Participate
+logo: $assets.files.images.fastnfolio-logo.png
 
 -- hero.hero: FASTNfolio
 text-1: August 15 - September 15 2023
@@ -7,5 +18,6 @@ cta-button-1: Participate
 Craft your digital identity
 
 
+-- footer.footer: Powered By
 
 

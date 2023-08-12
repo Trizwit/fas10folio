@@ -27,14 +27,6 @@ width: fill-container
 types: $holy-angel-typography.types
 background.linear-gradient: $lg
 
--- navbar.navbar: 
-logo: $page.logo
-cta-text-1: $page.cta-text-1
-cta-text-2: $page.cta-text-2
-cta-text-3: $page.cta-text-3
-cta-text-4: $page.cta-text-4
-cta-button-1: $page.cta-button-1
-
 -- ftd.column:
 width: fill-container
 children: $page.c
