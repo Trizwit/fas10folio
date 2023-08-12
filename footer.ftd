@@ -17,16 +17,6 @@ width: fill-container
 margin-vertical.vh: 6
 
 -- ftd.row:
-margin-vertical.vh: 4
-
--- ftd.image: 
-if: { footer.logo != NULL}
-src: $footer.logo
-height.fixed.vh: 10
-
--- end: ftd.row
-
--- ftd.row:
 width.fixed.percent: 90
 align-self: center
 align-content: center
