@@ -1,6 +1,5 @@
 -- import: trizwit.github.io/fastnfolio/hero as hero
 -- import: trizwit.github.io/fastnfolio/navbar as navbar
--- import: trizwit.github.io/fastnfolio/footer as footer
 -- import: trizwit.github.io/fastnfolio/lib
 
 
@@ -109,13 +108,5 @@ padding-horizontal.px if { ftd.device == "mobile" }: 24
 margin-bottom.px: 64
 
 -- end: lib.container-with-title
-
--- footer.footer:
-icon-1: $assets.files.images.linkedin.png
-icon-2: $assets.files.images.github.svg
-icon-3: $assets.files.images.twit.svg
-url-1: https://www.linkedin.com/company/trizwit/
-url-2: https://github.com/Trizwit
-url-3: https://twitter.com/trizwit
 
 -- end: lib.page
