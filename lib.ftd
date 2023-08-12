@@ -35,6 +35,7 @@ children: $page.c
 
 -- footer.footer:
 icon-1: $assets.files.images.twit.svg
+url-1: https://twitter.com/trizwit
 
 -- end: ftd.column
 
