@@ -21,10 +21,10 @@ padding-bottom.px: 27
 border-bottom-width.px: 2
 
 -- ftd.image:
-src: $footer.icon-2
+src: $footer.icon-1
 height.fixed.px: 32
 width.fixed.px: 32
-link: $footer.url-2
+link: $footer.url-1
 
 -- ftd.image:
 src: $footer.icon-2
