@@ -140,7 +140,7 @@ $on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
 role: $inherited.types.heading-tiny
 margin-top.px: 8
 color: white
-link: index.html#speakers
+link: index.html#participate
 $on-click$: $ftd.set-bool($a = $navbar-mobile.open, v = false)
 
 -- ftd.row:
@@ -276,7 +276,7 @@ role: $inherited.types.label-large
 style: semi-bold
 color: white
 align-self: center
-link: index.html#speakers
+link: index.html#participate
 
 -- end: ftd.column
 

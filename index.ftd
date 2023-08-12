@@ -34,6 +34,7 @@ anyone in their early-career stage, having a well-crafted portfolio is invaluabl
 gaining recognition and career advancement
 
 -- lib.container-with-title: Why FASTNfolio?
+$container-id: why
 
 -- lib.image-with-content: Showcase Skills and Creativity
 pic: $assets.files.images.community.png
@@ -97,7 +98,8 @@ logo: $assets.files.images.fastnfolio-logo.png
  
 -- end: lib.sponsor-section
 
--- lib.container-with-title: How to contribute?
+-- lib.container-with-title: How to Participate?
+$container-id: participate
 
 -- ftd.iframe:
 youtube: https://youtu.be/3ardRc2R-OY

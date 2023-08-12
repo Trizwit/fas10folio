@@ -34,50 +34,16 @@ children: $page.c
 -- end: ftd.column
 
 -- footer.footer:
-icon-1: $assets.files.images.twit.svg
-url-1: https://twitter.com/trizwit
+icon-1: $assets.files.images.linkedIn.png
+url-1: https://www.linkedin.com/company/trizwit/
 icon-2: $assets.files.images.twit.svg
 url-2: https://twitter.com/trizwit
-icon-3: $assets.files.images.twit.svg
-url-3: https://twitter.com/trizwit
+icon-3: $assets.files.images.github.svg
+url-3: https://github.com/Trizwit
 
 -- end: ftd.column
 
 -- end: page
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -297,16 +263,19 @@ wrap: true
 -- component container-with-title:
 caption title:
 children c:
+string $container-id:
 
 -- ftd.column:
 width: fill-container
-id: participate
+align-content: center
+margin-vertical.vh: 3
+id: $container-with-title.container-id
 
 -- ftd.text: $container-with-title.title
 role: $inherited.types.heading-large
 color: #ffffff
 align-self: center
-margin-bottom.px if { ftd.device == "desktop" }: 100
+margin-bottom.px if { ftd.device == "desktop" }: 64
 margin-bottom.px if { ftd.device == "mobile" }: 32
 
 -- ftd.column:
@@ -478,7 +447,6 @@ body body:
 
 -- ftd.column:
 width: fill-container
-margin-bottom.px: 100
 
 -- ftd.row:
 spacing.fixed.px: 200
@@ -522,33 +490,4 @@ opacity: 0.7
 -- end: ftd.column
 
 -- end: image-with-content-desktop
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
