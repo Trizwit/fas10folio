@@ -163,7 +163,8 @@ margin-top.vh: 1
 margin-bottom.vh: 5
 role: $inherited.types.heading-large
 style: regular
-color: White
+css: [ $assets.files.gradient-1.css ]
+classes: color-2
 
 -- ftd.row:
 spacing.fixed.px: 16

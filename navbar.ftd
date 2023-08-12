@@ -257,7 +257,7 @@ height: fill-container
 align-content: center
 margin-horizontal.vh: 2
 border-bottom-width.px if { navbar-text.is-active }: 4
-border-color: #f20487
+border-color: #01FEDE
 $on-mouse-enter$: $ftd.set-bool($a = $navbar-text.is-active, v = true)
 $on-mouse-leave$: $ftd.set-bool($a = $navbar-text.is-active, v = false)
 
