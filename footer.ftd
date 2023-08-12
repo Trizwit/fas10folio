@@ -1,10 +1,11 @@
+
 -- component footer:
-optional ftd.image-src icon-1: $assets.files.images.linkedin.png
-optional ftd.image-src icon-2: $assets.files.images.github.svg
-optional ftd.image-src icon-3: $assets.files.images.twit.svg
-optional string url-1: https://www.linkedin.com/company/trizwit/
-optional string url-2: https://github.com/Trizwit
-optional string url-3: https://twitter.com/trizwit
+optional ftd.image-src icon-1: 
+optional ftd.image-src icon-2: 
+optional ftd.image-src icon-3: 
+optional string url-1:
+optional string url-2: 
+optional string url-3: 
 
 
 -- ftd.column:
