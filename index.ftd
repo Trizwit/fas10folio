@@ -21,7 +21,7 @@ cta-button-1: Participate
 
 Craft your digital identity
 
--- lib.about: About FASTNfolio
+-- content.about: About FASTNfolio
 pic: $assets.files.images.fastnfolio-logo.png
 
 FASTNfolio, will be a one-of-a-kind event that motivates tech enthusiasts to create 
@@ -34,72 +34,83 @@ exceptional opportunity for participants to build captivating portfolio websites
 anyone in their early-career stage, having a well-crafted portfolio is invaluable for 
 gaining recognition and career advancement
 
--- lib.container-with-title: Why FASTNfolio?
+-- content.container-with-title: Why FASTNfolio?
 $container-id: why
 
 -- content.image-with-content: Showcase Skills and Creativity
-pic: $assets.files.images.community.png
+pic: $assets.files.images.creative.png
 number: 01
 
 FASTNfolio provides a platform to showcase the best work and skills, attracting potential 
-employers and clients.
+employers and clients. In the dynamic realm of web development, standing out is crucial. 
+FASTNfolio empowers you to display your best work and talents, creating an impressive 
+portfolio that speaks volumes to potential employers and clients. Whether it's cutting-edge
+designs, innovative functionalities, or seamless user experiences, your creations will 
+captivate and leave a lasting impression.
 
 -- content.image-with-content-2: Opportunity to Learn FASTN:
-pic: $assets.files.images.community.png
+pic: $assets.files.images.skill.png
 number: 02
 
 Participants can explore the unique features of FASTN and understand its advantages in web 
-development, gaining a competitive edge.
+development, gaining a competitive edge. Experience the future of web development with 
+FASTN. Our platform provides a unique opportunity to explore the unparalleled features and 
+advantages of FASTN, setting you apart from the competition. As you dive into the 
+intricacies of this revolutionary framework, you'll gain insights into streamlined 
+development processes, enhanced performance, and the ability to craft web solutions that 
+push boundaries
 
 -- content.image-with-content: Fast and Functional Development
-pic: $assets.files.images.community.png
+pic: $assets.files.images.webdev.png
 number: 03
 
-With the support of the fastnui.trizwit.com component library, developers can efficiently 
-incorporate pre-built components, saving time while ensuring high-quality design and 
-functionality.
+Say goodbye to time-consuming development cycles. By harnessing the capabilities of the 
+fastnui.trizwit.com component library, you're equipped with a suite of pre-built elements 
+that seamlessly integrate into your projects. This not only accelerates your development 
+timeline but also ensures that the end result boasts top-notch design aesthetics and 
+flawless functionality.
 
--- end: lib.container-with-title
+-- end: content.container-with-title
 
--- lib.sponsor-section: Organized by
+-- content.sponsor-section: Organized by
 
--- lib.sponsor-card: 
+-- content.sponsor-card: 
 logo: $assets.files.images.Trizwit.png
  
--- end: lib.sponsor-section
+-- end: content.sponsor-section
 
--- lib.sponsor-section: Campus Partners
+-- content.sponsor-section: Campus Partners
 
--- lib.sponsor-card: GEC Palakkad
+-- content.sponsor-card: GEC Palakkad
 logo: $assets.files.images.foss-gecp.png
 
--- lib.sponsor-card: LBSITW
+-- content.sponsor-card: LBSITW
 logo: $assets.files.images.Trizwit.png
 
--- lib.sponsor-card: MACE
+-- content.sponsor-card: MACE
 logo: $assets.files.images.fastnfolio-logo.png
 
--- lib.sponsor-card: GECT 
+-- content.sponsor-card: GECT 
 logo: $assets.files.images.fastnfolio-logo.png
 
--- lib.sponsor-card: Tinkerhub SNGCE
+-- content.sponsor-card: Tinkerhub SNGCE
 logo: $assets.files.images.tinkerhub-sngce.png
 
--- lib.sponsor-card: MEA
+-- content.sponsor-card: MEA
 logo: $assets.files.images.ieee-mea-sb.png
 
--- lib.sponsor-card: MES
+-- content.sponsor-card: MES
 logo: $assets.files.images.iedc-mes.png
 
--- lib.sponsor-card: SJCET
+-- content.sponsor-card: SJCET
 logo: $assets.files.images.ieee-sb-sjcet.png
 
--- lib.sponsor-card: GECI
+-- content.sponsor-card: GECI
 logo: $assets.files.images.ulearn-geci.png
  
--- end: lib.sponsor-section
+-- end: content.sponsor-section
 
--- lib.container-with-title: How to Participate?
+-- content.container-with-title: How to Participate?
 $container-id: participate
 
 -- ftd.iframe:
@@ -111,6 +122,6 @@ padding-horizontal.px if { ftd.device == "desktop" }: 120
 padding-horizontal.px if { ftd.device == "mobile" }: 24
 margin-bottom.px: 64
 
--- end: lib.container-with-title
+-- end: content.container-with-title
 
 -- end: lib.page
