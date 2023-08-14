@@ -16,12 +16,14 @@ width: fill-container
 -- hero-mobile:
 if: { ftd.device == "mobile" }
 heading: $hero.heading
+text-1: $hero.text-1
 cta-button-1: $hero.cta-button-1
 content: $hero.content
 
 -- hero-desktop:
 if: { ftd.device == "desktop" }
 heading: $hero.heading
+text-1: $hero.text-1
 cta-button-1: $hero.cta-button-1
 content: $hero.content
 
@@ -71,7 +73,7 @@ if: { hero-mobile.text-1 != NULL }
 spacing.fixed.px: 8
 
 -- ftd.image:
-src: $assets.files.images.calendar.png
+src: $assets.files.images.calendar-white.png
 height.fixed.px: 24
 align-self: center
 
@@ -145,6 +147,8 @@ body content:
 -- ftd.row:
 width: fill-container
 background.image: $assets.files.images.bg.png
+height.fixed.vh: 100
+
 
 -- ftd.column:
 padding.vh: 16
@@ -174,7 +178,7 @@ if: { hero-desktop.text-1 != NULL }
 spacing.fixed.px: 8
 
 -- ftd.image:
-src: $assets.files.images.calendar.png
+src: $assets.files.images.calendar-white.png
 height.fixed.px: 48
 align-self: center
 
