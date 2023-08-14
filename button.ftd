@@ -114,7 +114,7 @@ link: $button-4.link
 role: $inherited.types.heading-small
 style: bold
 color: #181939
-color if { button-4.is-active}: #181939
+color if { button-4.is-active}: #2821f1
 
 -- end: ftd.row
 
@@ -150,7 +150,7 @@ link: $button-5.link
 role: $inherited.types.label-large
 style: bold
 color: #181939
-color if { button-5.is-active}: #181939
+color if { button-5.is-active}: #2821f1
 
 -- end: ftd.row
 
