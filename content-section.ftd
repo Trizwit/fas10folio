@@ -1,4 +1,4 @@
--- import: trizwit.github.io/fastnfolio/common
+-- import: fastnfolio.trizwit.com/common
 
 -- component image-with-content:
 ftd.image-src pic:

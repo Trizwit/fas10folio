@@ -1,5 +1,5 @@
--- import: trizwit.github.io/fastnfolio/common
--- import: trizwit.github.io/fastnfolio/button as button
+-- import: fastnfolio.trizwit.com/common
+-- import: fastnfolio.trizwit.com/button as button
 
 
 -- component navbar:
