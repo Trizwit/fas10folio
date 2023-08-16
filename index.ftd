@@ -81,7 +81,7 @@ logo: $assets.files.images.Trizwit.png
 
 -- content.sponsor-section: Campus Partners
 
--- content.sponsor-card: Tinkerhub SNGCE
+-- content.sponsor-card: SNGCE
 logo: $assets.files.images.tinkerhub-sngce.png
 
 -- content.sponsor-card: MEA
@@ -102,11 +102,8 @@ logo: $assets.files.images.ulearn-geci.png
 -- content.sponsor-card: MES
 logo: $assets.files.images.iedc-mes.png
 
--- content.sponsor-card: MACE
-logo: $assets.files.images.fastnfolio-logo.png
-
--- content.sponsor-card: GECT 
-logo: $assets.files.images.fastnfolio-logo.png
+-- content.sponsor-card: GDSC MACE
+logo: $assets.files.images.gdsc.png
  
 -- end: content.sponsor-section
 
