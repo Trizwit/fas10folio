@@ -405,6 +405,7 @@ children card:
 width: fill-container
 align-content: center
 margin-vertical.vh: 3
+margin-bottom.vh: 10
 id: sponsors
 
 -- ftd.text: $sponsor-section.title
