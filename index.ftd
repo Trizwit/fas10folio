@@ -110,15 +110,6 @@ logo: $assets.files.images.gdsc.png
 -- content.container-with-title: How to Participate?
 $container-id: participate
 
-;; -- ftd.iframe:
-;; youtube: https://youtu.be/3ardRc2R-OY
-;; width: fill-container
-;; height.fixed.px if { ftd.device == "desktop" }: 768
-;; height.fixed.px if { ftd.device == "mobile" }: 256
-;; padding-horizontal.px if { ftd.device == "desktop" }: 120
-;; padding-horizontal.px if { ftd.device == "mobile" }: 24
-;; margin-bottom.px: 64
-
 -- content.image-with-content-2: Fork the Repo Template:
 pic: $assets.files.images.fork.png
 number: 01
@@ -167,6 +158,15 @@ number: 06
 Complete your participation by submitting your portfolio link through the provided submission form. 
 This step ensures that your hard work and creativity are officially recognized within the FASTNfolio campaign. 
 Your entry could pave the way to further recognition and opportunities in the world of web development.
+
+-- ftd.iframe:
+youtube: https://youtu.be/-20q9ae3S_c 
+width: fill-container
+height.fixed.px if { ftd.device == "desktop" }: 768
+height.fixed.px if { ftd.device == "mobile" }: 256
+padding-horizontal.px if { ftd.device == "desktop" }: 120
+padding-horizontal.px if { ftd.device == "mobile" }: 24
+margin-bottom.px: 64
 
 -- end: content.container-with-title
 
